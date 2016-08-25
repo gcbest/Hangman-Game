@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+	font-family: 'Baloo Tamma', cursive;
+}
+
+body {
+	background-image: url("../images/sky.jpg");
+	background-color: skyblue;
+}
+
+img {
+	width: 100%;
+}
+
+hr {
+	border-color: black;
+}
+
+#wonder_name {
+	text-align: center;
+	font-size: 32px;
+	color: purple;
+}
+
+.gameplay {
+	font-size: 24px;
+	font-family: 'Baloo Thambi', cursive;
+}

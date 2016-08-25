@@ -3,31 +3,66 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Hangman</title>    
+    <title>Hangman</title>
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Tamma|Baloo+Thambi" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+    <!-- My CSS Styleshee -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1>Press Any Key to Get Started!</h1>
-    <p>Wins</p>
-    <p id="win_total">
-    </p>
-    <p>
-        Current Word
-    </p>
-    <p id="word_now">
-    	
-    </p>
-    <p>
-        Number of Guesses Remaining
-    </p>
-    <p id="guess_count">
-    </p>
-    <p>Letters Guessed Already</p>
-    <p id="letters_guessed">
-    </p>
-
-	<script src= "assets/javascript/game.js"></script>	
+    <div class="container">
+        <div class="row">
+            <h1>Wonders Of the World Hangman!</h1>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col-md-6 gameplay">
+                <h3>Press Any Key to Get Started!</h3>
+                <h3>Type the first word of the Wonder's name</h3>
+                <hr>
+                    <div class="col-md-9 gameplay">
+                        <p>
+                            Current Word
+                        </p>
+                        <p id="word_now">
+                        </p>
+                        <p>
+                            Number of Guesses Remaining
+                        </p>
+                        <p id="guess_count">
+                        </p>
+                        <p>Letters Guessed Already</p>
+                        <p id="letters_guessed">
+                        </p>
+                    </div>
+                    <div class="col-md-3 gameplay">
+                        <p>Wins</p>
+                        <p id="win_total">
+                        </p>
+                    </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <p id="wonder_name">
+                    </p>
+                </div>
+                <div class="row">
+                    <div id="winner_pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
 </body>
 
-	
 </html>
