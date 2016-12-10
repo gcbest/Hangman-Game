@@ -1,1 +1,1 @@
-# week-3-game
+Wonders of the World Hangman game hosted at http://wonder-hangman.herokuapp.com/
