@@ -14,8 +14,6 @@ Wonders of the World Hangman game hosted at
 
 ## Technology Used
  ![](http://williamavasquez.herokuapp.com/img/js.png)
- ![](http://williamavasquez.herokuapp.com/img/html.png)
-  ![](http://williamavasquez.herokuapp.com/img/css.png)
 
 ## License
 This project is licensed under the terms of the **MIT** license.
